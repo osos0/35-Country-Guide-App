@@ -51,7 +51,8 @@ body {
 
 .ima {
   width: 150px;
-  height: 75px;
+  height: 100px;
+  background-size: cover;
 }
 
 .flag-con h4 {
