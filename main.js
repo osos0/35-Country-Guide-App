@@ -41,9 +41,9 @@ searchEl.addEventListener("click", () => {
         flagImg: data[0]["flags"]["png"],
       };
       countryEl.innerHTML = myObject.name;
-      capitalEl.innerHTML = `Continent : ${myObject.capital}`;
-      continentEl.innerHTML = `Capital : ${myObject.continent}`;
-      populatioEl.innerHTML = `Populatio : ${myObject.population}`;
+      capitalEl.innerHTML = `Capital : ${myObject.capital}`;
+      continentEl.innerHTML = `Continent : ${myObject.continent}`;
+      populatioEl.innerHTML = `Population : ${myObject.population}`;
       currencyEl.innerHTML = `Currency : ${myObject.currencies} - ${myObject.currenciesSymbol}`;
       commonLanguageEl.innerHTML = `Common-Language : ${myObject.languge}`;
       imageEl.style.backgroundImage = `url(${myObject.flagImg})`;
